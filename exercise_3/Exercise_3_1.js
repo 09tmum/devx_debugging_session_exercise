@@ -15,7 +15,7 @@ function getOvertimePay(hourlyRate, hoursWorked) {
 }
 
 function calculateTax(grossPay) {
-  if (grossPay >= 900) return grossPay * 0.19555;
+  if (grossPay >= 900) return grossPay * 0.20;
   if (grossPay >= 500)  return grossPay * 0.10;
   return 0;                             
 }
