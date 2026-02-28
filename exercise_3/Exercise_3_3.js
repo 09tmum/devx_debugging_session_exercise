@@ -2,7 +2,7 @@
  * SCENARIO: A grade calculator recursively processes a nested course structure. It should calculate the weighted average for each course. The output is wrong and the bug requires stepping through recursive calls.
  * TASK: There are TWO logical errors — one near the top of the call chain and one deep inside.
  * EXPECTED OUTPUT:
- * Final Grade: 78.00 it's 77.00
+ * Final Grade: 77.00
  */
 
 function averageScores(scores) {
